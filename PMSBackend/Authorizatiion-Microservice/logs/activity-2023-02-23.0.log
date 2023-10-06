@@ -1,0 +1,175 @@
+2023-02-23_17-38-48 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2 on Rush with PID 10860 (C:\Users\Rituraj\Desktop\BH Training\Authorization\Authorizatiion-Microservice\target\classes started by Rituraj in C:\Users\Rituraj\Desktop\BH Training\Authorization\Authorizatiion-Microservice)
+2023-02-23_17-38-48 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2023-02-23_17-38-48 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-23_17-38-48 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-23_17-38-48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-23_17-38-48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 197 ms. Found 1 JPA repository interfaces.
+2023-02-23_17-38-48 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=17a149ef-bdf0-3183-9b89-1dc5d9e72896
+2023-02-23_17-38-48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2023-02-23_17-38-48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2023-02-23_17-38-48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-23_17-38-48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-23_17-38-48 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2023-02-23_17-38-48 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4978 ms
+2023-02-23_17-38-48 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-23_17-38-48 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-23_17-38-48 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2023-02-23_17-38-48 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-23_17-38-48 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2023-02-23_17-38-48 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-23_17-38-48 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-02-23_17-38-48 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-23_17-38-48 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-23_17-38-48 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-02-23_17-38-48 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-23_17-38-48 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33dd398f, org.springframework.security.web.context.SecurityContextPersistenceFilter@20d722c6, org.springframework.security.web.header.HeaderWriterFilter@41936288, org.springframework.security.web.authentication.logout.LogoutFilter@3070f054, com.cts.authorization.config.JwtRequestFilter@49c95762, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31fa62a5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33a3f56, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10df5f88, org.springframework.security.web.session.SessionManagementFilter@606cc2fd, org.springframework.security.web.access.ExceptionTranslationFilter@5912d558, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b6f0ace]
+2023-02-23_17-38-48 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-23_17-38-48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2023-02-23_17-38-48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path '/auth'
+2023-02-23_17-38-48 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-23_17-38-48 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-23_17-38-48 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-23_17-38-48 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 12.211 seconds (JVM running for 13.566)
+2023-02-23_17-48-38 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2 on Rush with PID 4720 (C:\Users\Rituraj\Desktop\BH Training\Authorization\Authorizatiion-Microservice\target\classes started by Rituraj in C:\Users\Rituraj\Desktop\BH Training\Authorization\Authorizatiion-Microservice)
+2023-02-23_17-48-38 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2023-02-23_17-48-38 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-23_17-48-38 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-23_17-48-38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-23_17-48-38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 120 ms. Found 1 JPA repository interfaces.
+2023-02-23_17-48-38 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=17a149ef-bdf0-3183-9b89-1dc5d9e72896
+2023-02-23_17-48-38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2023-02-23_17-48-38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2023-02-23_17-48-38 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-23_17-48-38 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-23_17-48-38 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2023-02-23_17-48-38 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4312 ms
+2023-02-23_17-48-38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-23_17-48-38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-23_17-48-38 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2023-02-23_17-48-38 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-23_17-48-38 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2023-02-23_17-48-38 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-23_17-48-38 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-02-23_17-48-38 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-23_17-48-38 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-23_17-48-38 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-02-23_17-48-38 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-23_17-48-38 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@536f44c0, org.springframework.security.web.context.SecurityContextPersistenceFilter@31fa62a5, org.springframework.security.web.header.HeaderWriterFilter@7a437f7b, org.springframework.security.web.authentication.logout.LogoutFilter@52d75bd6, com.cts.authorization.config.JwtRequestFilter@7b811345, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f31ad74, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73270b43, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67e38eab, org.springframework.security.web.session.SessionManagementFilter@20d722c6, org.springframework.security.web.access.ExceptionTranslationFilter@41936288, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1170bd54]
+2023-02-23_17-48-38 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-23_17-48-38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2023-02-23_17-48-38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path '/auth'
+2023-02-23_17-48-38 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-23_17-48-38 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-23_17-48-38 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-23_17-48-38 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 11.337 seconds (JVM running for 12.654)
+2023-02-23_17-48-38 [http-nio-8400-exec-1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23_17-48-38 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-23_17-48-38 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-02-23_17-48-38 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_17-48-38 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_17-48-38 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_17-48-38 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_17-48-38 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_17-48-38 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_17-48-38 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_17-48-38 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_17-48-38 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_17-48-38 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_17-48-38 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_17-48-38 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_17-48-38 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_17-48-38 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_17-48-38 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_17-48-38 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_17-48-38 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_17-48-38 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_17-48-38 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_17-48-38 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_23-16-03 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2 on Rush with PID 18300 (C:\Users\Rituraj\Desktop\BH Training\Authorization\Authorizatiion-Microservice\target\classes started by Rituraj in C:\Users\Rituraj\Desktop\BH Training\Authorization\Authorizatiion-Microservice)
+2023-02-23_23-16-03 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2023-02-23_23-16-03 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-23_23-16-03 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-23_23-16-03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-23_23-16-03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 133 ms. Found 1 JPA repository interfaces.
+2023-02-23_23-16-03 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=17a149ef-bdf0-3183-9b89-1dc5d9e72896
+2023-02-23_23-16-03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2023-02-23_23-16-03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2023-02-23_23-16-03 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-23_23-16-03 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-23_23-16-03 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2023-02-23_23-16-03 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4800 ms
+2023-02-23_23-16-03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-23_23-16-03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-23_23-16-03 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2023-02-23_23-16-03 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-23_23-16-03 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2023-02-23_23-16-03 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-23_23-16-03 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-02-23_23-16-03 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-23_23-16-03 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-23_23-16-03 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-02-23_23-16-03 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-23_23-16-03 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d28d299, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f31ad74, org.springframework.security.web.header.HeaderWriterFilter@405a96ac, org.springframework.security.web.authentication.logout.LogoutFilter@72918ac2, com.cts.authorization.config.JwtRequestFilter@7b811345, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@531907f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77fb9af, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57e1f9ab, org.springframework.security.web.session.SessionManagementFilter@31fa62a5, org.springframework.security.web.access.ExceptionTranslationFilter@7a437f7b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5eb0a9bf]
+2023-02-23_23-16-03 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-23_23-16-03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2023-02-23_23-16-03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path '/auth'
+2023-02-23_23-16-03 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-23_23-16-03 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-23_23-16-03 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-23_23-16-03 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 12.64 seconds (JVM running for 13.929)
+2023-02-23_23-16-03 [http-nio-8400-exec-1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23_23-16-03 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-23_23-16-03 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-02-23_23-16-03 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_23-16-03 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_23-16-03 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_23-16-03 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_23-16-03 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_23-16-03 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_23-16-03 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_23-16-03 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_23-49-42 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 18.0.2 on Rush with PID 804 (C:\Users\Rituraj\Desktop\BH Training\Authorization\Authorizatiion-Microservice\target\classes started by Rituraj in C:\Users\Rituraj\Desktop\BH Training\Authorization\Authorizatiion-Microservice)
+2023-02-23_23-49-42 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2023-02-23_23-49-42 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-23_23-49-42 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-23_23-49-42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-23_23-49-42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 139 ms. Found 1 JPA repository interfaces.
+2023-02-23_23-49-42 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=17a149ef-bdf0-3183-9b89-1dc5d9e72896
+2023-02-23_23-49-42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2023-02-23_23-49-42 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2023-02-23_23-49-42 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-23_23-49-42 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-23_23-49-42 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2023-02-23_23-49-42 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4737 ms
+2023-02-23_23-49-42 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-23_23-49-42 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-23_23-49-42 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2023-02-23_23-49-42 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-23_23-49-42 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2023-02-23_23-49-42 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-23_23-49-42 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-02-23_23-49-42 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-23_23-49-42 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-23_23-49-42 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-02-23_23-49-42 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-23_23-49-42 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57e1f9ab, org.springframework.security.web.context.SecurityContextPersistenceFilter@3114a435, org.springframework.security.web.header.HeaderWriterFilter@53d9cae3, org.springframework.security.web.authentication.logout.LogoutFilter@3b2db68d, com.cts.authorization.config.JwtRequestFilter@7a710724, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e4eb574, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@697f184f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e81fed3, org.springframework.security.web.session.SessionManagementFilter@26e97a7d, org.springframework.security.web.access.ExceptionTranslationFilter@1a873056, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6668a93d]
+2023-02-23_23-49-42 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-23_23-49-42 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2023-02-23_23-49-42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path '/auth'
+2023-02-23_23-49-42 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-23_23-49-42 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-23_23-49-42 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-23_23-49-42 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 12.741 seconds (JVM running for 14.38)
+2023-02-23_23-49-42 [http-nio-8400-exec-1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23_23-49-42 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-23_23-49-42 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2023-02-23_23-49-42 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_23-49-42 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_23-49-42 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_23-49-42 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_23-49-42 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_23-49-42 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_23-49-42 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_23-49-42 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2023-02-23_23-49-42 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2023-02-23_23-49-42 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located

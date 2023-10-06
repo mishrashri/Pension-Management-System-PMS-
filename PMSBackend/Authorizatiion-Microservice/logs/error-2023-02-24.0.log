@@ -1,0 +1,2 @@
+2023-02-23_23-49-42 [http-nio-8400-exec-7] ERROR c.c.a.config.JwtRequestFilter - JWT Token has expired
+2023-02-23_23-49-42 [http-nio-8400-exec-8] ERROR c.c.a.config.JwtRequestFilter - JWT Token has expired

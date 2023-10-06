@@ -1,0 +1,6 @@
+public class JavaVerify {
+    public static void main(String[] args) {
+        String javaVerify = System.getProperty("java.version");
+        System.out.println("Your Java version is: " + javaVersion);
+    }
+}

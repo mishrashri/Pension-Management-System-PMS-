@@ -1,0 +1,3 @@
+insert into pensioner_detail(aadhaar,acccount_no,allowance,bank_name,bank_type,dob,last_salary,name,pan,pension_type) values(1234567890123,187654321,1234,'WB','private','2005-08-05',499999,'Darshan Patel','BUIPH333D','self');
+insert into pensioner_detail(aadhaar,acccount_no,allowance,bank_name,bank_type,dob,last_salary,name,pan,pension_type) values(2234567890123,287654321,1234,'SBI','public','2000-01-27',299999,'Narayan Mishra','CUIPH33D','family');
+insert into pensioner_detail(aadhaar,acccount_no,allowance,bank_name,bank_type,dob,last_salary,name,pan,pension_type) values(3234567890123,387654321,1234,'PNB','public','2020-12-09',39999,'Rituraj Harsh','DUIPH33D','self');

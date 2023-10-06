@@ -1,0 +1,433 @@
+2023-03-09_13-26-14 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 17288 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-03-09_13-26-14 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_13-26-14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-09_13-26-14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-09_13-26-14 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_13-26-14 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80 ms. Found 0 JPA repository interfaces.
+2023-03-09_13-26-14 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=79a8a468-0e73-3253-9856-20e11b71525c
+2023-03-09_13-26-14 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_13-26-14 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_13-26-14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_13-26-14 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_13-26-14 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_13-26-14 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_13-26-14 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_13-26-14 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4264 ms
+2023-03-09_13-26-14 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-09_13-26-14 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-09_13-26-14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-09_13-26-14 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3adc8bff
+2023-03-09_13-26-14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-09_13-26-14 [restartedMain] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-09_13-26-14 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-09_13-26-14 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-09_13-26-14 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2023-03-09_13-26-14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2023-03-09_13-26-14 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Started PensionDisbursementApplication in 9.197 seconds (process running for 10.456)
+2023-03-09_13-26-14 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-09_13-26-14 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-09_13-26-14 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2023-03-09_13-26-14 [http-nio-8082-exec-1] INFO  c.e.P.c.PensionDisbursementController - START disbursePension
+2023-03-09_13-26-14 [http-nio-8082-exec-1] INFO  c.e.P.s.PensionDisbursementService - START disbursePension
+2023-03-09_13-26-14 [http-nio-8082-exec-1] INFO  c.e.P.s.PensionDisbursementService - END disbursePension
+2023-03-09_13-26-14 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-03-09_13-26-14 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8082"]
+2023-03-09_13-26-14 [Thread-1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-09_13-26-14 [Thread-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-09_13-26-14 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8082"]
+2023-03-09_13-26-14 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8082"]
+2023-03-09_13-26-14 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-09_13-26-14 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-03-09_13-26-14 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-03-09_14-33-50 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 17288 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-03-09_14-33-50 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_14-33-50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_14-33-50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2023-03-09_14-33-50 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=79a8a468-0e73-3253-9856-20e11b71525c
+2023-03-09_14-33-50 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-33-50 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-33-50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_14-33-50 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-33-50 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_14-33-50 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_14-33-50 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_14-33-50 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1476 ms
+2023-03-09_14-33-50 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-09_14-33-50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2023-03-09_14-33-50 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@682bc089
+2023-03-09_14-33-50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2023-03-09_14-33-50 [restartedMain] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-09_14-33-50 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-09_14-33-50 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-09_14-33-50 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-33-50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2023-03-09_14-33-50 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Started PensionDisbursementApplication in 3.695 seconds (process running for 4070.884)
+2023-03-09_14-33-50 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-03-09_14-33-50 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-33-50 [Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-09_14-33-50 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-33-50 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-33-50 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-09_14-33-50 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2023-03-09_14-33-50 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2023-03-09_14-35-17 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 17288 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-03-09_14-35-17 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_14-35-17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_14-35-17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-03-09_14-35-17 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=79a8a468-0e73-3253-9856-20e11b71525c
+2023-03-09_14-35-17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-35-17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-35-17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_14-35-17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-35-17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_14-35-17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_14-35-17 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_14-35-17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1125 ms
+2023-03-09_14-35-17 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-09_14-35-17 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-09_14-35-51 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 17288 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-03-09_14-35-51 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_14-35-51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_14-35-51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-03-09_14-35-51 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=79a8a468-0e73-3253-9856-20e11b71525c
+2023-03-09_14-35-51 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-35-51 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-35-51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_14-35-51 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-35-51 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_14-35-51 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_14-35-51 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_14-35-51 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 730 ms
+2023-03-09_14-35-51 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-09_14-35-51 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-09_14-37-49 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 17288 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-03-09_14-37-49 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_14-37-49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_14-37-49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-03-09_14-37-49 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=79a8a468-0e73-3253-9856-20e11b71525c
+2023-03-09_14-37-49 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-37-49 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-37-49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_14-37-49 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-37-49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_14-37-49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_14-37-49 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_14-37-49 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 707 ms
+2023-03-09_14-37-49 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-09_14-37-49 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-09_14-38-58 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 17288 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-03-09_14-38-58 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_14-38-58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_14-38-58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-03-09_14-38-58 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=79a8a468-0e73-3253-9856-20e11b71525c
+2023-03-09_14-38-58 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-38-58 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-38-58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_14-38-58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-38-58 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_14-38-58 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_14-38-58 [restartedMain] INFO  o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_14-38-58 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1289 ms
+2023-03-09_14-38-58 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-09_14-38-58 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-09_14-40-49 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 2456 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-03-09_14-40-49 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_14-40-49 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-09_14-40-49 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-09_14-40-49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_14-40-49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 0 JPA repository interfaces.
+2023-03-09_14-40-49 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=79a8a468-0e73-3253-9856-20e11b71525c
+2023-03-09_14-40-49 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-40-49 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-40-49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_14-40-49 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-40-49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_14-40-49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_14-40-49 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_14-40-49 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4483 ms
+2023-03-09_14-40-49 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-09_14-40-49 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-09_14-42-22 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 24188 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-03-09_14-42-22 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_14-42-22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-09_14-42-22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-09_14-42-22 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_14-42-22 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 0 JPA repository interfaces.
+2023-03-09_14-42-22 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=79a8a468-0e73-3253-9856-20e11b71525c
+2023-03-09_14-42-22 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-42-22 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-42-22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_14-42-22 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-42-22 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_14-42-22 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_14-42-22 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_14-42-22 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4789 ms
+2023-03-09_14-42-22 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-09_14-42-22 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-09_14-43-08 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 10352 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-03-09_14-43-08 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_14-43-08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-09_14-43-08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-09_14-43-08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_14-43-08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 JPA repository interfaces.
+2023-03-09_14-43-08 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=79a8a468-0e73-3253-9856-20e11b71525c
+2023-03-09_14-43-08 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-43-08 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-43-08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_14-43-08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-43-08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_14-43-08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_14-43-08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_14-43-08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4758 ms
+2023-03-09_14-43-08 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-09_14-43-08 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-09_14-43-32 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 15748 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-03-09_14-43-32 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_14-43-32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-09_14-43-32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-09_14-43-32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_14-43-32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 0 JPA repository interfaces.
+2023-03-09_14-43-32 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=79a8a468-0e73-3253-9856-20e11b71525c
+2023-03-09_14-43-32 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-43-32 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-43-32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_14-43-32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-43-32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_14-43-32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_14-43-32 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_14-43-32 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7454 ms
+2023-03-09_14-43-32 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-09_14-43-32 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-09_14-44-19 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 6916 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-03-09_14-44-19 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_14-44-19 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-09_14-44-19 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-09_14-44-19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_14-44-19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 0 JPA repository interfaces.
+2023-03-09_14-44-19 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=79a8a468-0e73-3253-9856-20e11b71525c
+2023-03-09_14-44-19 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-44-19 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-44-19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_14-44-19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-44-19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_14-44-19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_14-44-19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_14-44-19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4447 ms
+2023-03-09_14-44-19 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-09_14-44-19 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-09_14-45-08 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 3172 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-03-09_14-45-08 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_14-45-08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-09_14-45-08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-09_14-45-08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_14-45-08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 0 JPA repository interfaces.
+2023-03-09_14-45-08 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=79a8a468-0e73-3253-9856-20e11b71525c
+2023-03-09_14-45-08 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-45-08 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-45-08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_14-45-08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-45-08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_14-45-08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_14-45-08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_14-45-08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4428 ms
+2023-03-09_14-45-08 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-09_14-45-08 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-09_14-46-17 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 23180 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-03-09_14-46-17 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_14-46-17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-09_14-46-17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-09_14-46-17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_14-46-17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 0 JPA repository interfaces.
+2023-03-09_14-46-17 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=79a8a468-0e73-3253-9856-20e11b71525c
+2023-03-09_14-46-17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-46-17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-46-17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_14-46-17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-46-17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_14-46-17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_14-46-17 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_14-46-17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4308 ms
+2023-03-09_14-46-17 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-09_14-46-17 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-09_14-48-01 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 21980 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-03-09_14-48-01 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_14-48-01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-09_14-48-01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-09_14-48-01 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_14-48-01 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 0 JPA repository interfaces.
+2023-03-09_14-48-01 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c50baada-743a-397d-b9a0-b93990be75c6
+2023-03-09_14-48-01 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-48-01 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-48-01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_14-48-01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-48-01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_14-48-01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_14-48-01 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_14-48-01 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4296 ms
+2023-03-09_14-48-01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-09_14-48-01 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:6ec9d4d1-285a-4cbd-bc79-8e4be2ab8e4c user=SA
+2023-03-09_14-48-01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-09_14-48-01 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:6ec9d4d1-285a-4cbd-bc79-8e4be2ab8e4c'
+2023-03-09_14-48-01 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-09_14-48-01 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-09_14-48-01 [restartedMain] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-09_14-48-01 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-09_14-48-01 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-09_14-48-01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-48-01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2023-03-09_14-48-01 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Started PensionDisbursementApplication in 11.175 seconds (process running for 12.905)
+2023-03-09_14-53-18 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 21656 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-03-09_14-53-18 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_14-53-18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-09_14-53-18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-09_14-53-18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_14-53-18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 JPA repository interfaces.
+2023-03-09_14-53-18 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c50baada-743a-397d-b9a0-b93990be75c6
+2023-03-09_14-53-18 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-53-18 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_14-53-18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_14-53-18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-53-18 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_14-53-18 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_14-53-18 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_14-53-18 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3679 ms
+2023-03-09_14-53-18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-09_14-53-18 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:66597e6d-460c-4ab1-b38f-fbd06eb21b4e user=SA
+2023-03-09_14-53-18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-09_14-53-18 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:66597e6d-460c-4ab1-b38f-fbd06eb21b4e'
+2023-03-09_14-53-18 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-09_14-53-18 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-09_14-53-18 [restartedMain] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-09_14-53-18 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-09_14-53-18 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-09_14-53-18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2023-03-09_14-53-18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2023-03-09_14-53-18 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Started PensionDisbursementApplication in 8.742 seconds (process running for 10.29)
+2023-03-09_14-53-18 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-09_14-53-18 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-09_14-53-18 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-03-09_14-53-18 [http-nio-8082-exec-1] INFO  c.e.P.c.PensionDisbursementController - START disbursePension
+2023-03-09_14-53-18 [http-nio-8082-exec-1] INFO  c.e.P.s.PensionDisbursementService - START disbursePension
+2023-03-09_14-53-18 [http-nio-8082-exec-1] INFO  c.e.P.s.PensionDisbursementService - END disbursePension
+2023-03-09_14-53-18 [http-nio-8082-exec-2] INFO  c.e.P.c.PensionDisbursementController - START disbursePension
+2023-03-09_14-53-18 [http-nio-8082-exec-2] INFO  c.e.P.s.PensionDisbursementService - START disbursePension
+2023-03-09_14-53-18 [http-nio-8082-exec-2] INFO  c.e.P.s.PensionDisbursementService - END disbursePension
+2023-03-09_15-02-32 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 22840 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-03-09_15-02-32 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_15-02-32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-09_15-02-32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-09_15-02-32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_15-02-32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 0 JPA repository interfaces.
+2023-03-09_15-02-32 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c50baada-743a-397d-b9a0-b93990be75c6
+2023-03-09_15-02-32 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_15-02-32 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_15-02-32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_15-02-32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_15-02-32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_15-02-32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_15-02-32 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_15-02-32 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5476 ms
+2023-03-09_15-02-32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-09_15-02-32 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:877d67dd-b114-49b3-93b7-ad6904e390f5 user=SA
+2023-03-09_15-02-32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-09_15-02-32 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:877d67dd-b114-49b3-93b7-ad6904e390f5'
+2023-03-09_15-02-32 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-09_15-02-32 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-09_15-02-32 [restartedMain] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-09_15-02-32 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-09_15-02-32 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-09_15-02-32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2023-03-09_15-02-32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2023-03-09_15-02-32 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Started PensionDisbursementApplication in 12.068 seconds (process running for 15.362)
+2023-03-09_15-02-32 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-09_15-02-32 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-09_15-02-32 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-03-09_15-02-32 [http-nio-8082-exec-1] INFO  c.e.P.c.PensionDisbursementController - START disbursePension
+2023-03-09_15-02-32 [http-nio-8082-exec-1] INFO  c.e.P.s.PensionDisbursementService - START disbursePension
+2023-03-09_15-02-32 [http-nio-8082-exec-1] INFO  c.e.P.s.PensionDisbursementService - END disbursePension
+2023-03-09_22-01-41 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 17.0.4.1 with PID 8796 (I:\Cognizant\Final Project\PMSBackend\PensionDisbursement\PensionDisbursement\target\classes started by naray in I:\Cognizant\Final Project\PMSBackend\PensionDisbursement\PensionDisbursement)
+2023-03-09_22-01-41 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_22-01-41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-09_22-01-41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-09_22-01-41 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_22-01-41 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 0 JPA repository interfaces.
+2023-03-09_22-01-41 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c50baada-743a-397d-b9a0-b93990be75c6
+2023-03-09_22-01-41 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_22-01-41 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_22-01-41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_22-01-41 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_22-01-41 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_22-01-41 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_22-01-41 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_22-01-41 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2724 ms
+2023-03-09_22-01-41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-09_22-01-41 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:9efa063b-cf1d-4cbf-91df-5a7faadaff32 user=SA
+2023-03-09_22-01-41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-09_22-01-41 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:9efa063b-cf1d-4cbf-91df-5a7faadaff32'
+2023-03-09_22-01-41 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-09_22-01-41 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-09_22-01-41 [restartedMain] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-09_22-01-41 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-09_22-01-41 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-09_22-01-41 [restartedMain] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-03-09_22-01-41 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2023-03-09_22-01-41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2023-03-09_22-01-41 [restartedMain] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-03-09_22-01-41 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Started PensionDisbursementApplication in 9.732 seconds (process running for 10.749)
+2023-03-09_22-32-23 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 17.0.4.1 with PID 4400 (I:\Cognizant\Final Project\PMSBackend\PensionDisbursement\PensionDisbursement\target\classes started by naray in I:\Cognizant\Final Project\PMSBackend\PensionDisbursement\PensionDisbursement)
+2023-03-09_22-32-23 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09_22-32-23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-09_22-32-23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-09_22-32-23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-09_22-32-23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 JPA repository interfaces.
+2023-03-09_22-32-23 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c50baada-743a-397d-b9a0-b93990be75c6
+2023-03-09_22-32-23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.AuthClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_22-32-23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-09_22-32-23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-03-09_22-32-23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-03-09_22-32-23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09_22-32-23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-09_22-32-23 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09_22-32-23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2643 ms
+2023-03-09_22-32-23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-09_22-32-23 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:c0d39dde-f5cc-49aa-8f00-1f74059b584c user=SA
+2023-03-09_22-32-23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-09_22-32-23 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:c0d39dde-f5cc-49aa-8f00-1f74059b584c'
+2023-03-09_22-32-23 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-09_22-32-23 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-09_22-32-23 [restartedMain] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-09_22-32-23 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-09_22-32-23 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-09_22-32-23 [restartedMain] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-03-09_22-32-23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2023-03-09_22-32-23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2023-03-09_22-32-23 [restartedMain] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-03-09_22-32-23 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Started PensionDisbursementApplication in 9.575 seconds (process running for 10.611)
+2023-03-09_22-32-23 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-09_22-32-23 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-09_22-32-23 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-03-09_22-32-23 [http-nio-8082-exec-1] INFO  c.e.P.c.PensionDisbursementController - START disbursePension
+2023-03-09_22-32-23 [http-nio-8082-exec-1] INFO  c.e.P.s.PensionDisbursementService - START disbursePension
+2023-03-09_22-32-23 [http-nio-8082-exec-1] INFO  c.e.P.s.PensionDisbursementService - END disbursePension

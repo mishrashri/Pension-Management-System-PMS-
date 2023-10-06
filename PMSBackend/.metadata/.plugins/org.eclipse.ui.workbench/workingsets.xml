@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1678376155965_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1678376155984_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1678376196730_3" label="Authorizatiion-Microservice" name="Authorizatiion-Microservice">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Authorizatiion-Microservice" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1678376238406_4" label="pensionerDetail" name="pensionerDetail">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pensionerDetail" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1678376255098_5" label="processPension" name="processPension">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/processPension" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1678376268412_6" label="PensionDisbursement" name="PensionDisbursement">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PensionDisbursement" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1678376157035_2" label="Window Working Set" name="Aggregate for window 1678376157035"/>
+</workingSetManager>
